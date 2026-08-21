@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -83,13 +84,14 @@
   <h1>Privacy Policy</h1>
   <p class="meta">
     Find Top: Hidden Objects (<code>uz.hagames.findtop</code>)<br>
-    Last updated: 14 August 2026 &middot; Effective: 14 August 2026
+    Last updated: 21 August 2026 &middot; Effective: 21 August 2026
   </p>
 
   <p class="lede">
     This policy explains what information the Find Top mobile game collects, why it is
-    collected, and who it is shared with. It applies to the Android version of the game
-    distributed through Google Play.
+    collected, and who it is shared with. It applies to both versions of the game: the
+    Android version distributed through Google Play, and the iOS version distributed
+    through the Apple App Store.
   </p>
 
   <p>
@@ -103,15 +105,16 @@
     phone number or location. Your game progress is stored on your own device. A nickname
     you choose and your weekly score are sent to our leaderboard. Advertising and payment
     are handled by Unity and Google, who collect device identifiers under their own privacy
-    policies.</p>
+    policies. On iOS we do not ask for permission to track you, and the game does not
+    collect Apple's advertising identifier.</p>
   </div>
 
   <h2>1. Information stored on your device</h2>
 
   <p>
-    The following is saved locally on your phone using Android's standard app storage. It
-    never leaves your device unless a section below says otherwise, and it is deleted when
-    you uninstall the game.
+    The following is saved locally on your phone using the standard app storage provided
+    by Android or iOS. It never leaves your device unless a section below says otherwise,
+    and it is deleted when you uninstall the game.
   </p>
 
   <ul>
@@ -168,8 +171,10 @@
         <tr>
           <td>Unity Ads<br>(Unity Technologies)</td>
           <td>Showing rewarded and full-screen advertisements</td>
-          <td>Advertising ID, IP address, device model, operating system version, coarse
-              country, ad interaction events</td>
+          <td>IP address, device model, operating system version, coarse country, ad
+              interaction events. On Android also the Google Advertising ID. On iOS no
+              advertising identifier is collected, because the game does not request
+              tracking permission</td>
           <td><a href="https://unity.com/legal/game-player-and-app-user-privacy-policy" rel="noopener">unity.com</a></td>
         </tr>
         <tr>
@@ -179,16 +184,23 @@
           <td><a href="https://unity.com/legal/game-player-and-app-user-privacy-policy" rel="noopener">unity.com</a></td>
         </tr>
         <tr>
-          <td>Google Play Billing<br>(Google)</td>
+          <td>Google Play Billing<br>(Google) &mdash; Android only</td>
           <td>Processing in-app purchases</td>
           <td>Purchase and transaction data handled entirely by Google</td>
           <td><a href="https://policies.google.com/privacy" rel="noopener">policies.google.com</a></td>
         </tr>
         <tr>
-          <td>Google Play Services<br>(Google)</td>
+          <td>Google Play Services<br>(Google) &mdash; Android only</td>
           <td>App distribution, updates and crash reporting</td>
           <td>Device and app identifiers, diagnostic information</td>
           <td><a href="https://policies.google.com/privacy" rel="noopener">policies.google.com</a></td>
+        </tr>
+        <tr>
+          <td>Apple App Store &amp; StoreKit<br>(Apple) &mdash; iOS only</td>
+          <td>App distribution, updates, in-app purchases and restoring past purchases</td>
+          <td>Purchase and transaction data, app and device identifiers, diagnostic
+              information &mdash; all handled entirely by Apple</td>
+          <td><a href="https://www.apple.com/legal/privacy/" rel="noopener">apple.com</a></td>
         </tr>
       </tbody>
     </table>
@@ -196,17 +208,29 @@
 
   <h3>Payments</h3>
   <p>
-    All purchases go through Google Play. We never see and never store your card number,
-    bank details or billing address. We only receive confirmation from Google that a
-    purchase succeeded, so that the game can unlock what you bought.
+    All purchases go through Google Play on Android and through the Apple App Store on
+    iOS. We never see and never store your card number, bank details or billing address.
+    We only receive confirmation from the store that a purchase succeeded, so that the
+    game can unlock what you bought. The same applies when you use the
+    <em>Restore purchases</em> option on iOS: Apple tells the game which non-consumable
+    items you already own, and nothing else.
   </p>
 
   <h3>Advertising identifier</h3>
   <p>
-    Advertisements may use your device's advertising ID to limit how often you see the same
-    advertisement and to make advertisements more relevant. You can reset or delete this ID
-    at any time in Android under <em>Settings &rarr; Privacy &rarr; Ads</em>. Deleting it
-    does not stop advertisements from appearing; it makes them less personalised.
+    <strong>On Android</strong>, advertisements may use your device's Google Advertising ID
+    to limit how often you see the same advertisement and to make advertisements more
+    relevant. You can reset or delete this ID at any time under
+    <em>Settings &rarr; Privacy &rarr; Ads</em>. Deleting it does not stop advertisements
+    from appearing; it makes them less personalised.
+  </p>
+  <p>
+    <strong>On iOS</strong>, the game does not show the App Tracking Transparency prompt and
+    does not request access to Apple's advertising identifier (IDFA). Advertisements shown
+    on iOS are contextual rather than personalised, and we do not track you across other
+    apps or websites. You can confirm this at any time under
+    <em>Settings &rarr; Privacy &amp; Security &rarr; Tracking</em>, where Find Top will not
+    appear in the list of apps that have asked to track you.
   </p>
 
   <h2>4. What we do not do</h2>
@@ -221,9 +245,12 @@
 
   <h2>5. Permissions the app requests</h2>
   <p>
-    The game requests internet access, which Android needs in order to load advertisements
-    and to reach the leaderboard. It does not request any permission classified by Android
-    as dangerous. The levels themselves can be played without an internet connection.
+    On Android the game requests internet access, which the system needs in order to load
+    advertisements and to reach the leaderboard. It does not request any permission
+    classified by Android as dangerous. On iOS the game requests no permissions at all:
+    it does not ask for tracking, notifications, the camera, the microphone, photos,
+    contacts or location. The levels themselves can be played without an internet
+    connection on both platforms.
   </p>
 
   <h2>6. Children</h2>
@@ -237,7 +264,7 @@
   <h2>7. How long data is kept</h2>
   <ul>
     <li><strong>On your device:</strong> until you uninstall the game or clear its data
-        through Android settings.</li>
+        through the system settings of Android or iOS.</li>
     <li><strong>Leaderboard scores:</strong> weekly scores reset on a weekly cycle. Your
         nickname and anonymous player ID remain until you ask us to delete them.</li>
     <li><strong>Third-party services:</strong> retention is governed by the policies of
@@ -261,8 +288,11 @@
 
   <h3>Deleting your data yourself</h3>
   <ul>
-    <li><strong>Local progress:</strong> uninstall the game, or open Android
+    <li><strong>Local progress (Android):</strong> uninstall the game, or open
         <em>Settings &rarr; Apps &rarr; Find Top &rarr; Storage &rarr; Clear data</em>.</li>
+    <li><strong>Local progress (iOS):</strong> delete the app from the Home Screen or from
+        <em>Settings &rarr; General &rarr; iPhone Storage &rarr; Find Top</em>. iOS removes
+        the app's stored data with it.</li>
     <li><strong>Leaderboard entry:</strong> email us and we will remove your nickname and
         score from the board.</li>
   </ul>
@@ -286,7 +316,7 @@
   <p>
     We may update this policy when the game changes or when the law requires it. The date
     at the top of this page always shows when it was last revised. Significant changes will
-    be announced in the app's Google Play listing. Continuing to use the game after a change
+    be announced in the app's Google Play and App Store listings. Continuing to use the game after a change
     means you accept the updated policy.
   </p>
 
