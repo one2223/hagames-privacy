@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tarkib — Halal Ingredient & E-Code Scanner</title>
+<meta name="description" content="Scan a barcode and see what is in the ingredients: E-codes, gelatin, alcohol, carmine and more. Food, cosmetics and household products. No account, no ads.">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#F6F4EE" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0C1F16" media="(prefers-color-scheme: dark)">
+<!-- No cookies, analytics, trackers, external fonts or scripts on this page. -->
+<style>
+:root{--bg:#F6F4EE;--card:#FFFFFF;--ink:#16201A;--muted:#4C554F;--line:#E3DFD4;--accent:#0F5A3C;--gold:#8A6A1F;--btn-bg:#0F5A3C;--btn-ink:#FFFFFF}
+@media (prefers-color-scheme:dark){:root{--bg:#0C1F16;--card:#12291E;--ink:#EEF3EF;--muted:#C2CEC6;--line:#21402F;--accent:#8FD6B2;--gold:#E9C46A;--btn-bg:#E9C46A;--btn-ink:#0C1F16}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:1.0625rem/1.6 system-ui,-apple-system,"Segoe UI",Roboto,"Noto Sans",Arial,sans-serif}
+a{color:var(--accent);text-underline-offset:.15em;overflow-wrap:anywhere}
+a:focus-visible{outline:3px solid var(--gold);outline-offset:2px;border-radius:4px}
+.skip{position:absolute;left:-9999px;top:0;background:var(--card);color:var(--ink);padding:.5rem .75rem;border-radius:8px}
+.skip:focus{left:.5rem;top:.5rem}
+.wrap{max-width:46rem;margin:0 auto;padding:0 1.25rem}
+header.wrap{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:.75rem;padding-top:1.25rem;padding-bottom:.5rem}
+.brand{display:flex;align-items:center;gap:.6rem;font-weight:800;font-size:1.25rem;color:var(--ink);text-decoration:none}
+nav ul{list-style:none;display:flex;flex-wrap:wrap;gap:1rem;margin:0;padding:0}
+nav a[aria-current="page"]{color:var(--ink);font-weight:700;text-decoration:none}
+h1{font-size:2rem;line-height:1.2;margin:1.5rem 0 .4rem}
+h2{font-size:1.45rem;line-height:1.3;margin:2.4rem 0 .5rem}
+h3{font-size:1.1rem;margin:1.6rem 0 .3rem}
+.lead{font-size:1.2rem;margin:.2rem 0}
+.muted{color:var(--muted)}
+.path{font-weight:600}
+.card{background:var(--card);border:1px solid var(--line);border-radius:1rem;padding:.7rem 1.25rem;margin:1rem 0}
+.button{display:inline-block;background:var(--btn-bg);color:var(--btn-ink);font-weight:700;text-decoration:none;padding:.8rem 1.3rem;border-radius:.8rem;margin:1rem 0 .3rem}
+.langs{display:flex;gap:1rem;margin:1rem 0 0;padding:0;list-style:none}
+ul.list,ol.list{padding-inline-start:1.2rem}
+.list li{margin:.25rem 0}
+footer.wrap{border-top:1px solid var(--line);margin-top:3rem;padding-top:1rem;padding-bottom:2rem;font-size:.95rem;color:var(--muted)}
+@media (prefers-reduced-motion:no-preference){html{scroll-behavior:smooth}}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="wrap">
+  <a class="brand" href="./">
+    <svg width="40" height="40" viewBox="0 0 64 64" aria-hidden="true" focusable="false">
+      <rect width="64" height="64" rx="14" fill="#0F5A3C"/>
+      <g transform="rotate(45 32 32)">
+        <path d="M12 32 L22 21 H49 a3.5 3.5 0 0 1 3.5 3.5 V39.5 a3.5 3.5 0 0 1 -3.5 3.5 H22 Z" fill="#E9C46A"/>
+        <circle cx="22.5" cy="32" r="3.4" fill="#0F5A3C"/>
+      </g>
+      <path d="M27 35 l5.5 5.5 l11 -11" fill="none" stroke="#0B3F2A" stroke-width="4.2" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+    <span>Tarkib</span>
+  </a>
+  <nav aria-label="Site">
+    <ul>
+      <li><a href="./" aria-current="page">Home</a></li>
+      <li><a href="privacy.html">Privacy</a></li>
+      <li><a href="support.html">Support</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main id="main" class="wrap">
+  <ul class="langs" aria-label="Language">
+    <li><a href="#en" hreflang="en">English</a></li>
+    <li><a href="#uz" hreflang="uz" lang="uz">O'zbekcha</a></li>
+  </ul>
+
+  <section id="en" lang="en" aria-labelledby="en-title">
+    <h1 id="en-title">Tarkib: halal ingredient and E-code scanner</h1>
+    <p class="lead">Scan the code on a pack and see what is in the ingredients — with the reason for every finding.</p>
+    <a class="button" href="https://apps.apple.com/app/id6833124719">Download on the App Store</a>
+    <p class="muted">For iPhone, iOS 17 or later · English, O'zbekcha, Русский, العربية, Français, Deutsch</p>
+
+    <h2>Always free</h2>
+    <ul class="list">
+      <li>Scan barcodes (EAN, UPC) and the “Asl belgisi” DataMatrix code — food, cosmetics and household products</li>
+      <li>One of five clear results: Halal certificate found · No doubtful ingredients found · Needs checking · Contains … · Not enough information</li>
+      <li>Every E-code and ingredient that needs attention, with what it is made from and why</li>
+      <li>Not in the database? Read the ingredients from a photo or type them in, and the check is done on your phone</li>
+      <li>E-code table that works offline, with how each code is written on packs</li>
+      <li>Calories and the main nutrients, and a history of your last 30 checks</li>
+    </ul>
+
+    <h2>Tarkib Premium (optional)</h2>
+    <ul class="list">
+      <li>More label readings tidied up by AI (30 a day instead of 3)</li>
+      <li>The full nutrition table, per 100 g and per portion</li>
+      <li>Unlimited history, favourites and search</li>
+      <li>Things I avoid: a warning when a product has an additive or ingredient you chose</li>
+    </ul>
+    <p>Monthly, yearly (with a 3-day free trial for eligible new subscribers) or a one-time lifetime purchase, through the App Store.</p>
+
+    <div class="card">
+      <h2 style="margin-top:.4rem">A finding, not a fatwa</h2>
+      <p>Tarkib tells you what was found in the ingredients on the pack. It does not say whether a product is permitted. Notes follow the Hanafi school. If in doubt, ask the maker or a scholar.</p>
+    </div>
+
+    <div class="card">
+      <h2 style="margin-top:.4rem">Private by design</h2>
+      <p>No account, no ads, no analytics. Photos never leave your iPhone, and your history stays on it. <a href="privacy.html">Privacy policy</a></p>
+    </div>
+
+    <p>Questions? See <a href="support.html">Support</a> or write to <a href="mailto:islam.yadgarov.677@gmail.com">islam.yadgarov.677@gmail.com</a>.</p>
+  </section>
+
+  <section id="uz" lang="uz" aria-labelledby="uz-title">
+    <h2 id="uz-title" style="font-size:2rem;margin-top:3rem">Tarkib: halol skaner — tarkib va E-kodlar</h2>
+    <p class="lead">Qadoqdagi kodni skanerlang va tarkibda nima borligini ko'ring — har bir topilma sababi bilan.</p>
+    <a class="button" href="https://apps.apple.com/app/id6833124719">App Store'dan yuklab olish</a>
+    <p class="muted">iPhone uchun, iOS 17 va undan yangi · ilova to'liq o'zbek tilida</p>
+
+    <h3>Doim bepul</h3>
+    <ul class="list">
+      <li>Shtrix-kod (EAN, UPC) va «Asl belgisi» DataMatrix kodini skanerlash — oziq-ovqat, kosmetika va maishiy kimyo</li>
+      <li>Beshta aniq natijadan biri: Halol sertifikati bor · Shubhali tarkib topilmadi · Aniqlashtirish kerak · Tarkibida … bor · Ma'lumot yetarli emas</li>
+      <li>E'tibor talab qiladigan har bir E-kod va ingredient — nimadan olinishi va sababi bilan</li>
+      <li>Bazada yo'qmi? Tarkibni suratdan o'qiting yoki yozing — tekshiruv telefoningizda bajariladi</li>
+      <li>Internetsiz ishlaydigan E-kodlar jadvali — har kod qadoqda qanday yozilishi bilan</li>
+      <li>Kaloriya va asosiy ozuqa moddalari, oxirgi 30 ta tekshiruv tarixi</li>
+    </ul>
+
+    <h3>Tarkib Premium (ixtiyoriy)</h3>
+    <ul class="list">
+      <li>AI tozalaydigan ko'proq tarkib o'qish (kuniga 3 ta o'rniga 30 ta)</li>
+      <li>To'liq ozuqa jadvali — 100 g va porsiya uchun</li>
+      <li>Cheksiz tarix, sevimlilar va qidiruv</li>
+      <li>Mendan qochiladiganlar: o'zingiz tanlagan qo'shimcha yoki ingredient bo'lsa ogohlantiradi</li>
+    </ul>
+    <p>Oylik, yillik (yangi obunachilar uchun 3 kunlik bepul sinov bilan) yoki bir martalik umrbod xarid — App Store orqali.</p>
+
+    <div class="card">
+      <h3 style="margin-top:.4rem">Topilma, fatvo emas</h3>
+      <p>Tarkib qadoqdagi tarkibda nima topilganini aytadi. Mahsulot mumkin yoki mumkin emasligi haqida hukm chiqarmaydi. Izohlar Hanafiy mazhabi bo'yicha. Shubha bo'lsa, ishlab chiqaruvchidan yoki olimdan so'rang.</p>
+    </div>
+
+    <div class="card">
+      <h3 style="margin-top:.4rem">Maxfiylik — asosida</h3>
+      <p>Akkaunt, reklama va analitika yo'q. Suratlar iPhone'dan chiqmaydi, tarixingiz telefonda qoladi. <a href="privacy.html#uz">Maxfiylik siyosati</a></p>
+    </div>
+
+    <p>Savollar bormi? <a href="support.html#uz">Yordam</a> sahifasini ko'ring yoki <a href="mailto:islam.yadgarov.677@gmail.com">islam.yadgarov.677@gmail.com</a> manziliga yozing.</p>
+  </section>
+</main>
+
+<footer class="wrap">
+  <p>© 2026 Islombek Yadgarov · <a href="../">HA Games</a> · <a href="privacy.html">Privacy</a> · <a href="support.html">Support</a></p>
+</footer>
+</body>
+</html>

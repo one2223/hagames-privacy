@@ -13,6 +13,8 @@ Studiyaning ochiq sayti: bosh sahifa, har bir o'yin uchun alohida bo'lim (do'kon
 
 Ilovalar: `ziyo/` — `index.html` (Marketing URL), `support.html` (Support URL: `hagames.uz/ziyo/support`), `privacy.html` (Privacy Policy URL: `hagames.uz/ziyo/privacy`; ilova ichida ham shu manzil). Manba — H-A-Studio `apps/ziyo/store/site/`.
 
+`tarkib/` — `index.html` (Marketing URL), `support.html` (Support URL: `hagames.uz/tarkib/support`), `privacy.html` (Privacy Policy URL: `hagames.uz/tarkib/privacy`; ilova ichida ham). Manba — H-A-Studio `apps/tarkib/store/site/` (`*.body.html` → `python3 build.py <bu repo>/tarkib`).
+
 O'yinlar: `commute-jam/` (yangi tuzilmada), `blob-merge/`, `find-top/` (sahifa yangi, privacy hozircha eski faylda), `one-pos/`.
 
 **Eski fayllar o'zgartirilmaydi** — ular hozir chiqqan ilovalarning do'kon sahifalarida ko'rsatilgan: `bm.html` (Blob Merge), `findtop.html` (Find Top), `index.html` va `privacy-policy.html` (Forest Strike). Do'kon sahifalaridagi havolalar `hagames.uz/<o'yin>/privacy.html` ga o'tkazilgach, ular yangi joyga ko'chiriladi va eski fayllar yo'naltirishga (redirect) aylanadi.
