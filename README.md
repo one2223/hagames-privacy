@@ -17,6 +17,8 @@ Ilovalar: `ziyo/` — `index.html` (Marketing URL), `support.html` (Support URL:
 
 `mysayqal/` — mysayqal.uz (sayt va Telegram Mini App): `index.html` (yordam), `privacy.html` (`hagames.uz/mysayqal/privacy`), `terms.html` (`hagames.uz/mysayqal/terms`); uz/ru. Matn shu fayllarning o'zida tahrirlanadi (One-POS sahifalari andozasi).
 
+Reklama landing sahifalari: `tarkib/get/<til>` va `ziyo/get/<til>` (en, ar, fr, de, ru) — Instagram reklamasi shu yerga olib keladi, tugmada App Store kampaniya havolasi (`ct=ig_<til>`). Manba — H-A-Studio `studio/_tools/ad_landing.py` (qo'lda tahrirlanmaydi).
+
 O'yinlar: `commute-jam/` (yangi tuzilmada), `blob-merge/`, `find-top/` (sahifa yangi, privacy hozircha eski faylda), `one-pos/`.
 
 **Eski fayllar o'zgartirilmaydi** — ular hozir chiqqan ilovalarning do'kon sahifalarida ko'rsatilgan: `bm.html` (Blob Merge), `findtop.html` (Find Top), `index.html` va `privacy-policy.html` (Forest Strike). Do'kon sahifalaridagi havolalar `hagames.uz/<o'yin>/privacy.html` ga o'tkazilgach, ular yangi joyga ko'chiriladi va eski fayllar yo'naltirishga (redirect) aylanadi.
