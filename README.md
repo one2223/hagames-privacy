@@ -15,6 +15,8 @@ Ilovalar: `ziyo/` — `index.html` (Marketing URL), `support.html` (Support URL:
 
 `tarkib/` — `index.html` (Marketing URL), `support.html` (Support URL: `hagames.uz/tarkib/support`), `privacy.html` (Privacy Policy URL: `hagames.uz/tarkib/privacy`; ilova ichida ham). Manba — H-A-Studio `apps/tarkib/store/site/` (`*.body.html` → `python3 build.py <bu repo>/tarkib`).
 
+Reklama landing sahifalari: `tarkib/get/<til>` va `ziyo/get/<til>` (en, ar, fr, de, ru) — Instagram reklamasi shu yerga olib keladi, tugmada App Store kampaniya havolasi (`ct=ig_<til>`). Manba — H-A-Studio `studio/_tools/ad_landing.py` (qo'lda tahrirlanmaydi).
+
 O'yinlar: `commute-jam/` (yangi tuzilmada), `blob-merge/`, `find-top/` (sahifa yangi, privacy hozircha eski faylda), `one-pos/`.
 
 **Eski fayllar o'zgartirilmaydi** — ular hozir chiqqan ilovalarning do'kon sahifalarida ko'rsatilgan: `bm.html` (Blob Merge), `findtop.html` (Find Top), `index.html` va `privacy-policy.html` (Forest Strike). Do'kon sahifalaridagi havolalar `hagames.uz/<o'yin>/privacy.html` ga o'tkazilgach, ular yangi joyga ko'chiriladi va eski fayllar yo'naltirishga (redirect) aylanadi.
